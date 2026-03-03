@@ -197,7 +197,7 @@ Enter your choice:`);
     switch (choice) {
         case 1: readmenufilm(); break;
         case 2: CreatedFilm(); break;
-        case 3: deleteFilm(); break;
+        case 3: deleteFilm(); break; filterphim(); break;
         case 4: updateFilmProfile(); break;
         case 0:
             alert("Xin chao va hen gap lai!")
@@ -208,6 +208,7 @@ Enter your choice:`);
             break;
     }
 } while (choice !== 0);
+
 
 
 
